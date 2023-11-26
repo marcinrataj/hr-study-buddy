@@ -3,6 +3,7 @@ export const theme = {
     white: '#FFFFFF',
     lightGrey: '#F7F8FA',
     grey: '#C0C7D6',
+    darkGrey: '#737C8E',
     black: '#111111',
     success: '#8FCB81',
     error: '#CB8581',
@@ -11,6 +12,7 @@ export const theme = {
     lightPurple: '#ECEFF7',
   },
   fontSize: {
+    xl: '24px',
     l: '17px',
     m: '12px',
     s: '11px',

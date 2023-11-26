@@ -1,6 +1,6 @@
 {
   "plugins": ["prettier"],
-  "extends": ["react-app", "react-app/jest", "plugin:prettier/recommended", "prettier/react", "eslint-config-prettier"],
+  "extends": ["react-app", "react-app/jest", "plugin:prettier/recommended", "prettier", "eslint-config-prettier"],
   "rules": {
     "prettier/prettier": ["warn", {
       "singleQuote": true,
