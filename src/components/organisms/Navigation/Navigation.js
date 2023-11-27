@@ -11,17 +11,11 @@ const Navigation = () => {
           Buddy
         </h1>
       </Logo>
-      <StyledLink exact to="/">
+      <StyledLink activeClassName="active-link" exact to="/">
         Dashboard
       </StyledLink>
-      <StyledLink exact to="/add-user">
+      <StyledLink activeClassName="active-link" exact to="/add-user">
         Add user
-      </StyledLink>
-      <StyledLink exact to="/">
-        Settings
-      </StyledLink>
-      <StyledLink exact to="/">
-        Logout
       </StyledLink>
     </Wrapper>
   );
